@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+*.egg-info/
+
+# Large dataset folders
+data_download/
+data/raw/
+data/landmarks/
+data/landmarks_pathB/
+data/mano_fits_20iter_baseline/
+data/mano_fits_pathB_20iter/
+
+# Licensed / external model files
+models/hand_landmarker.task
+models/mano/
+*.pkl
+
+# OS files
+.DS_Store
+
+# Backup files
+*_backup.py
